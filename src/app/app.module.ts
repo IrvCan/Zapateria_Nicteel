@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'primeng/carousel';
 import { MenubarModule } from 'primeng/menubar';
 import { GalleriaModule } from 'primeng/galleria';
+import { TagModule } from 'primeng/tag';
+import { ButtonModule } from 'primeng/button';
 
 import { ComponentsModule } from './components/components.module';
 import { HomeComponent } from './page/home/home.component';
@@ -26,7 +28,9 @@ import { HomeComponent } from './page/home/home.component';
 
     CarouselModule,
     MenubarModule,
-    GalleriaModule
+    GalleriaModule,
+    TagModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
